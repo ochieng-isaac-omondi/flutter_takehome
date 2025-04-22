@@ -8,8 +8,8 @@ The authentication system has a validation form that takes an email with a valid
 The password has a visibility toggle; users can show or hide their password with the eye icon.
 After successful validation, the login screen navigates to the HomeScreen by the click to login button. The button uses navigator. Push to navigate to next screen.
 2. home_screen.dart
-This displays a welcome message and content with features like a blue themed AppBar, contains a drawer with a side menu containing options like home, setting, profile, logout. It also shows user information in the drawer header (avatar icon, name, email). It uses navigator.Push for navigation between screens and navigator.pushReplacement for logout to prevent going back.
-It has a bottonNavigationBar with icons that allow uploading, sharing and deleting files.
+Homescreen is a stateful screen which displays a welcome message and content with features like a blue themed AppBar, contains a drawer with a side menu containing options like home, setting, profile, logout. It also shows user information in the drawer header (avatar icon, name, email). It uses navigator.Push for navigation between screens and navigator.pushReplacement for logout to prevent going back.
+It has a bottonNavigationBar with icons that allow creating, sharing and deleting files.
 3. Profile_screen.dart
 This displays user information with avatar icon, name, email and a simple centered layout.
 4. setting_screen.dart
